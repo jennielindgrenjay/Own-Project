@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/****HEADER***/
+
+.navbar {
+    background-color: #33323B;
+}
+
+.navbar a {
+    line-height: inherit;
+    color: #ffbd3f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: #FFAD0F;
+    border: 2px solid #FFAD0F;
+}
+
+.container-fluid a {
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+    line-height: 1;
+}
+
+/***INFO***/
+
+p {
+    font-size: 25px;
+    text-align: center;
+    color: #33323B;
+}
+
+.introduction {
+    justify-content: center;
+    margin: 40px;
+    font-size: 30px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 1rem auto;
+    height: auto;
+}
+
+.media-object {
+    margin: 50px;
+}
+
+.alignnone {
+    align-content: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+h2 {
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.we-want {
+    align-content: center;
+    text-align: center;
+}
+
+.col {
+    text-align: center;
+}
+
+/****IMAGES****/
+
+.main-img {
+    width: 100%;
+    max-width: 2000px;
+    min-width: 1000px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.team-nooga {
+    width: 100%;
+    max-width: 3000px;
+    min-width: 1000px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/****FOOTER****/
+
+.info p {
+    font-size: 20px;
+}
+
+.info a {
+    color: #FFAD0F;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.map {
+    width: 55%;
+    height: 100%;
+    max-width: 500px;
+    min-width: 100px;
+    max-height: 500px;
+    min-height: 100px;
+}
+
+#contact-info {
+    background-color: #33323B;
+}
+
+.pt-4 {
+    color: #fff;
+}
+
+.form-button {
+    color: #fff;
+    background-color: #FFAD0F;
+    border: 2px solid #FFAD0F;
+    height: 30px;
+    width: 50px;
+}
+
+.message {
+    width: 500px;
+
+}
+
+.e-post {
+    width: 500px;
+
+}
+
+.company {
+    width: 500px;
+
+}
+
+.name {
+    width: 500px;
+
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:600px) {
+    .main-img {
+        width: auto;
+    }
+}
+
+
+/****MENY*****/
+
+#menu {
+    background-color: rgb(13, 4, 75);
+}
+
+#menu a {
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    color: #FFAD0F;
+
+}
+
+#menu .navbar a {
+    color: #FFAD0F;
+}
+
+#menu .container-fluid {
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#menu .container-fluid a {
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+    line-height: 1;
+}
+
+#menu .navbar a:hover {
+    color: #fff;
+}
+
+#menu .navbar {
+    width: 100%;
+    max-width: 5000px;
+}
+
+#menu .front-page {
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+#menu .offers {
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+#menu .contact-us {
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+#menu .about-us {
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+/*OFFERS*/
+
+#offers .teaser {
+    text-align: flex-start;
+    flex-grow: 1;
+}
+
+#offers .we-offer p {
+    line-height: 1;
+    font-size: 20px;
+    text-align: center;
+}
+
+#offers .row {
+    justify-content: center;
+    align-content: center;
+}
+
+#offers .container-fluid a {
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+    line-height: 1;
+}
+
+#offers .card-section {
+    padding: 1rem;
+}
+
+#offers h6 {
+    justify-content: center;
+    text-align: center;
+}
+
+#offers h2 {
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+#offers p {
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+#offers .we-offer {
+    justify-content: center;
+}
+
+#offers .l-container-fluid {
+    justify-content: center;
+    text-align: center;
+}
+
+#offers p a {
+    font-weight: 500;
+}
+
+#offers a {
+    line-height: inherit;
+    color: #ffbd3f;
+    text-decoration: none;
+    cursor: pointer;
+}
